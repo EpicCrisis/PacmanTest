@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Pacman_Test.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{735C521D-1135-45A5-A8B5-1F0B1D9A8949}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Pacman_Test.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Pacman_TestEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0435BBCF-F40F-4868-8918-5343EDCD524B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Pacman_Test">
+			<UniqueIdentifier>{59B659F9-F489-42D0-9BA1-56AEA46A66D5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Pacman_Test\Pacman_Test.Build.cs">
+			<Filter>Source\Pacman_Test</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Pacman_Test\Pacman_Test.cpp">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Pacman_Test\Pacman_Test.h">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Pacman_Test\Pacman_TestGameModeBase.cpp">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Pacman_Test\Pacman_TestGameModeBase.h">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
