@@ -260,6 +260,8 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<ClCompile Include="..\..\Source\Pacman_Test\PacmanPlayer.cpp" />
+		<ClInclude Include="..\..\Source\Pacman_Test\PacmanPlayer.h" />
 		<None Include="..\..\Source\Pacman_Test\Pacman_Test.Build.cs" />
 		<ClCompile Include="..\..\Source\Pacman_Test\Pacman_Test.cpp" />
 		<ClInclude Include="..\..\Source\Pacman_Test\Pacman_Test.h" />
