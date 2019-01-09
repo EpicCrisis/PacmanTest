@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Pacman_Test.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{F4DFEFB8-253F-46ED-9814-47D240992C0D}</UniqueIdentifier>
+			<UniqueIdentifier>{D694835A-906D-48B5-963E-8F785A525F5C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Pacman_Test.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{F7EF9E0F-9F14-406C-9BC9-EEE50D27EE39}</UniqueIdentifier>
+			<UniqueIdentifier>{FE0A13D6-25C6-4EBC-93E5-4A2294F21881}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,9 +24,30 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\Pacman_Test">
-			<UniqueIdentifier>{E62022E2-6EFF-47A3-9D6E-D310A17F8DB9}</UniqueIdentifier>
+			<UniqueIdentifier>{12004E26-6F63-437B-90B0-D148257C676E}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Pacman_Test\Dot_Big.cpp">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Pacman_Test\Dot_Big.h">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Pacman_Test\Dot_Small.cpp">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Pacman_Test\Dot_Small.h">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Pacman_Test\LevelLoad.cpp">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Pacman_Test\LevelLoad.h">
+			<Filter>Source\Pacman_Test</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\Pacman_Test\PacmanPlayer.cpp">
 			<Filter>Source\Pacman_Test</Filter>
 		</ClCompile >

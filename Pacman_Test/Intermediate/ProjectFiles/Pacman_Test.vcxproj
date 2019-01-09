@@ -260,6 +260,13 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\Pacman_Test\Dot_Big.cpp" />
+		<ClInclude Include="..\..\Source\Pacman_Test\Dot_Big.h" />
+		<ClCompile Include="..\..\Source\Pacman_Test\Dot_Small.cpp" />
+		<ClInclude Include="..\..\Source\Pacman_Test\Dot_Small.h" />
+		<ClCompile Include="..\..\Source\Pacman_Test\LevelLoad.cpp" />
+		<ClInclude Include="..\..\Source\Pacman_Test\LevelLoad.h" />
 		<ClCompile Include="..\..\Source\Pacman_Test\PacmanPlayer.cpp" />
 		<ClInclude Include="..\..\Source\Pacman_Test\PacmanPlayer.h" />
 		<None Include="..\..\Source\Pacman_Test\Pacman_Test.Build.cs" />

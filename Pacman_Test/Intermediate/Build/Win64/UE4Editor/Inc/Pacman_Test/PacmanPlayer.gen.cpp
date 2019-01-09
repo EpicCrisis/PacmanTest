@@ -145,6 +145,16 @@ void EmptyLinkFunctionForGeneratedCodePacmanPlayer() {}
 				{ "ModuleRelativePath", "PacmanPlayer.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveDirection_MetaData[] = {
+				{ "Category", "PacmanPlayer" },
+				{ "ModuleRelativePath", "PacmanPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_MoveDirection = { UE4CodeGen_Private::EPropertyClass::Int, "MoveDirection", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APacmanPlayer, MoveDirection), METADATA_PARAMS(NewProp_MoveDirection_MetaData, ARRAY_COUNT(NewProp_MoveDirection_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MoveDirection,
+			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<APacmanPlayer>::IsAbstract,
 			};
@@ -153,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodePacmanPlayer() {}
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
 				FuncInfo, ARRAY_COUNT(FuncInfo),
-				nullptr, 0,
+				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
 				nullptr, 0,
@@ -163,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodePacmanPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APacmanPlayer, 4106415170);
+	IMPLEMENT_CLASS(APacmanPlayer, 2651514128);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APacmanPlayer(Z_Construct_UClass_APacmanPlayer, &APacmanPlayer::StaticClass, TEXT("/Script/Pacman_Test"), TEXT("APacmanPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APacmanPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

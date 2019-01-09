@@ -8,7 +8,6 @@ APacmanPlayer::APacmanPlayer()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
@@ -37,44 +36,43 @@ void APacmanPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAction("DKey", IE_Pressed, this, &APacmanPlayer::MoveRight);
 
 }
-
-// 1 = W; 2 = S; 3 = A; 4 = D
 void APacmanPlayer::MoveUp()
 {
-	moveDirection = 1;
+	MoveDirection = 1;
 }
 
 void APacmanPlayer::MoveDown()
 {
-	moveDirection = 2;
+	MoveDirection = 2;
 }
 
 void APacmanPlayer::MoveLeft()
 {
-	moveDirection = 3;
+	MoveDirection = 3;
 }
 
 void APacmanPlayer::MoveRight()
 {
-	moveDirection = 4;
+	MoveDirection = 4;
 }
 
+// 1 = W; 2 = S; 3 = A; 4 = D
 void APacmanPlayer::UpdateMovement(float DeltaTime)
 {
-	if (moveDirection == 1)
+	if (MoveDirection == 1)
 	{
-
+		AddMovementInput(FVector(0.0f, 1.0f, 0.0f), -1);
 	}
-	else if (moveDirection == 2)
+	else if (MoveDirection == 2)
 	{
-
+		AddMovementInput(FVector(0.0f, 1.0f, 0.0f), 1);
 	}
-	else if (moveDirection == 3)
+	else if (MoveDirection == 3)
 	{
-
+		AddMovementInput(FVector(1.0f, 0.0f, 0.0f), -1);
 	}
-	else if (moveDirection == 4)
+	else if (MoveDirection == 4)
 	{
-
+		AddMovementInput(FVector(1.0f, 0.0f, 0.0f), 1);
 	}
 }

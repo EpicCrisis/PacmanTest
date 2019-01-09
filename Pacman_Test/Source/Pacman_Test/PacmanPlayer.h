@@ -29,9 +29,11 @@ public:
 
 	ACharacter* PacmanCharacter;
 
-	int moveDirection;
-	float movementSpeed;
-	float runningTime;
+	FVector CurrentCoord;
+	FVector NextCoord;
+
+	UPROPERTY(EditAnywhere)
+	int MoveDirection;
 
 	UFUNCTION()
 		void MoveUp();
@@ -43,5 +45,7 @@ public:
 		void MoveRight();
 
 	UFUNCTION()
-		void UpdateMovement(float DeltaTime);	
+		void UpdateMovement(float DeltaTime);
+	
+	// Obtain the data of the grid to identify and compare the coords of obstacles and ghosts.
 };

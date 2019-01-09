@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePacman_Test_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Pacman_Test",
 				PKG_CompiledIn | 0x00000000,
-				0x162F69A7,
-				0xBC90BC80,
+				0x48D120B1,
+				0x3D6F864B,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
