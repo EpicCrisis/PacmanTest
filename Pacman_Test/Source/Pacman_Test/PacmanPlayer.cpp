@@ -22,7 +22,7 @@ void APacmanPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UpdateMovement(DeltaTime);
+	//UpdateMovement(DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -30,10 +30,10 @@ void APacmanPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("WKey", IE_Pressed, this, &APacmanPlayer::MoveUp);
-	PlayerInputComponent->BindAction("SKey", IE_Pressed, this, &APacmanPlayer::MoveDown);
-	PlayerInputComponent->BindAction("AKey", IE_Pressed, this, &APacmanPlayer::MoveLeft);
-	PlayerInputComponent->BindAction("DKey", IE_Pressed, this, &APacmanPlayer::MoveRight);
+	//PlayerInputComponent->BindAction("WKey", IE_Pressed, this, &APacmanPlayer::MoveUp);
+	//PlayerInputComponent->BindAction("SKey", IE_Pressed, this, &APacmanPlayer::MoveDown);
+	//PlayerInputComponent->BindAction("AKey", IE_Pressed, this, &APacmanPlayer::MoveLeft);
+	//PlayerInputComponent->BindAction("DKey", IE_Pressed, this, &APacmanPlayer::MoveRight);
 
 }
 void APacmanPlayer::MoveUp()
